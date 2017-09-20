@@ -1,0 +1,537 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    font-size: 18px;
+    color: #333;
+    font-weight: 400;
+    line-height: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+    color: #000;
+}
+
+header,
+footer,
+section,
+canvas,
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+h1 {
+    font-size: 48px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 36px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+.container {
+    width: 95%;
+    margin: 0 auto;
+    position: relative;
+}
+
+header {
+    padding: 15px 0;
+    background: transparent;
+    position: absolute;
+    z-index: 999;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.logo {
+    width: 100px;
+    background: #fff;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.logo a {
+    font-size: 15px;
+    text-align: center;
+    line-height: 90px;
+    display: block;
+}
+
+.slider-part {
+    max-height: 600px;
+    overflow: hidden;
+}
+
+.slide-text {
+    padding-top: 5%;
+    width: 70%;
+    margin: 0 auto;
+    display: block;
+}
+
+.slide-text h2 {
+    line-height: 50px;
+    padding: 5% 0;
+    color: #f46036;
+}
+
+.slider-box-pos {
+    position: absolute;
+    width: 100%;
+    top: 150px;
+    left: 0;
+}
+
+.button {
+    text-align: center;
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 20px;
+}
+
+li {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.button a {
+    background: #F46036;
+    padding: 10px 30px;
+    font-size: 36px;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.map img {
+    width: 100%;
+}
+
+.map-in {
+    display: inline-block;
+    position: absolute;
+    right: 50px;
+    top: 0;
+    color: #000;
+}
+
+.button a:hover,
+.more a:hover,
+.cont-form ul li input[type="submit"]:hover {
+    background: #333;
+    cursor: pointer;
+}
+
+.title-head h2 {
+    padding-bottom: 20px;
+    color: #f46036;
+    line-height: 25px;
+}
+
+.services,
+.Principles,
+.contact-us {
+    padding: 40px 0;
+}
+
+.products,
+.Principles-part {
+    width: 32%;
+    margin-right: 20px;
+    float: left;
+}
+
+.products:nth-child(3n+3),
+.Principles-part:nth-child(3n+3) {
+    margin-right: 0px;
+}
+
+.product-img {
+    background: #E4E4E4;
+    padding: 15px;
+    width: 200px;
+    margin: 10px auto;
+    display: block;
+    text-align: center;
+    box-shadow: 0 0 4px #bdbdbd;
+    border-radius: 0;
+}
+
+.product-img img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.services-box,
+.Principles-box {
+    padding: 20px 0 20px;
+    overflow: hidden;
+}
+
+.products-heading h3 {
+    color: #000;
+    font-weight: 600;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.Principles-heading h3 {
+    font-weight: 600;
+    color: #000;
+    text-align: left;
+    padding: 20px 0;
+}
+
+.products-heading ul li {
+    padding: 5px 0;
+}
+
+.particle-sect {
+    max-height: 400px;
+    overflow: hidden;
+}
+
+#particles-js {
+    width: 100%;
+    height: 100%;
+    background-color: #4E4D5C;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+#particles-js1,
+#particles-js2 {
+    width: 100%;
+    height: 100%;
+    background: url(../images/bg-par.jpg);
+    background-position: 50% 50%;
+    position: relative;
+    background-attachment: fixed;
+}
+
+
+/*
+	#particles-js1:before{ content:""; position:absolute;    width: 100%;
+    height: 100%; display:block;     background: rgba(0, 0, 0, 0.20); 
+	z-index:0;
+		
+	}
+
+	*/
+
+.contact-text {
+    width: 60%;
+    float: left;
+    margin-right: 11%;
+}
+
+.contact-button {
+    overflow: hidden;
+    padding: 50px 0;
+}
+
+.contact-text h3 {
+    font-weight: 600;
+    padding: 20px 0;
+}
+
+.more a {
+    background: #F46036;
+    padding: 10px 30px;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.contact-box {
+    width: 48%;
+    padding: 2% 0;
+    overflow: hidden;
+}
+
+.contact-box1 {
+    width: 60%;
+    padding: 2% 0;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+body #gmap_canvas div {
+    background-color: transparent !important;
+}
+
+.map-marker {
+    color: #000;
+    z-index: 9999 !important;
+}
+
+footer {
+    background: #333745;
+    padding: 20px 0;
+}
+
+.copy-text p {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 0;
+}
+
+.contact-box h1 {
+    line-height: 50px;
+    color: #f46036;
+}
+
+.contact-box h2 {
+    line-height: 50px;
+    font-weight: 600;
+    font-size: 36px;
+    padding: 5% 0;
+    color: #f46036;
+}
+
+.contavct-form {
+    padding: 40px 0;
+}
+
+.cont-form {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.cont-form ul li {
+    padding: 10px 0;
+    display: block;
+    overflow: hidden;
+}
+
+.cont-form ul li h2 {
+    width: 30%;
+    float: left;
+    font-weight: 600;
+    color: #000;
+    line-height: 36px;
+}
+
+.cont-form ul li input {
+    width: 65%;
+    float: left;
+    padding: 10px;
+    border-bottom: 1px solid #000;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.cont-form ul li textarea {
+    border: 1px solid #000;
+    width: 65%;
+    height: 200px;
+    float: left;
+    padding: 10px;
+}
+
+.cont-form ul li input[type="submit"] {
+    background: #F46036;
+    padding: 10px 30px;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    font-size: 36px;
+    width: auto;
+    font-family: 'Open Sans', sans-serif;
+    display: block;
+    float: none;
+    margin: 0 auto;
+}
+
+.thanku {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px;
+}
+
+.thanku h1 {
+    color: #000;
+    line-height: 60px;
+    margin-bottom: 100px;
+    font-weight: 600;
+}
+
+@media (max-width: 768px) {}
+
+@media (max-width: 600px) {
+    .products,
+    .Principles-part {
+        width: 100%;
+        margin-right: 0px;
+        margin-bottom: 30px;
+        float: none;
+    }
+    .logo {
+        width: 50px;
+        height: 50px;
+    }
+    .logo a {
+        font-size: 12px;
+        line-height: 52px;
+    }
+    .slider-box-pos {
+        top: 50px;
+    }
+    .slide-text h2 {
+        font-size: 14px;
+        line-height: 22px;
+        padding-bottom: 0;
+        text-align: center;
+    }
+    .cont-form {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .contact-box h2 {
+        font-size: 18px;
+    }
+    .slide-text {
+        padding-top: 5%;
+        width: 100%;
+    }
+    .cont-form ul li h2 {
+        width: 100%;
+        float: none;
+        color: #000;
+        font-size: 14px;
+        line-height: 36px;
+    }
+    .button h2 {
+        display: block;
+    }
+    .button a {
+        font-size: 13px;
+    }
+    h1 {
+        font-size: 22px;
+    }
+    h2 {
+        font-size: 18px;
+    }
+    h3 {
+        font-size: 16px;
+    }
+    p,
+    li {
+        font-size: 14px;
+    }
+    .products-heading {
+        text-align: center;
+    }
+    .title-head h2 {
+        font-size: 30px;
+        padding-bottom: 20px;
+        font-weight: 700;
+        color: #f46036;
+        line-height: 25px;
+        text-align: center;
+    }
+    .contact-text {
+        width: 100%;
+        float: none;
+        margin-right: 0%;
+    }
+    .contact-box {
+        width: 100%;
+        text-align: center;
+        padding-top: 20%;
+    }
+    .contact-button {
+        overflow: hidden;
+        padding: 10px 0;
+    }
+    .Principles-heading h3,
+    .Principles-box {
+        text-align: center;
+    }
+    .cont-form ul li {
+        padding: 10px 0 0;
+    }
+    .cont-form ul li input,
+    .cont-form ul li textarea {
+        width: 93%;
+        border: 1px solid #000;
+    }
+    .thanku {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        padding: 40px 0px;
+    }
+    .thanku h1 {
+        margin-bottom: 50px;
+        line-height: 40px;
+    }
+}
